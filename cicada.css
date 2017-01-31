@@ -1,0 +1,49 @@
+html {
+	background-image: url(LayerTwo.png), url(LayerOne.png), url(Base.gif);
+	padding:0;
+	margin:0;
+	height: 100%;
+}
+body {
+	margin: 0;
+	color: #cfcfcf;
+	font-family: verdana, arial, sans-serif;
+}
+#mainPlate {
+	position: relative;
+	width: 600px;
+	height: 100%;
+	margin: 0px auto;
+	background: #333;
+	padding: 20px 20px 400px 20px;
+	border-left: 2px solid #090;
+	border-right: 2px solid #090;
+}
+h1, h2, h3, h4 {
+	color: #3F0;
+}
+a {
+	color: #090;
+}
+#baseTileOnly {
+	position: relative;
+	width: 100%;
+	height: 90px;
+	background-image: url(Base.gif);
+	border: 2px solid #090;
+}
+#layerOneTileOnly {
+	position: relative;
+	width: 100%;
+	height: 90px;
+	background-image: url(LayerOne.png);
+	background-color: #360;
+	border: 2px solid #090;	
+}
+#layersOneAndTwo {
+	position: relative;
+	width: 100%;
+	height: 90px;
+	background-image: url(LayerOne.png), url(Base.gif);
+	border: 2px solid #090;	
+}
